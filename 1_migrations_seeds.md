@@ -34,7 +34,7 @@ And, update the `knexfile.js` file with the following connection information for
 Then, generate a secret key that'll be used to sign JWT information. You'll learn what a JWT is and why it's signed in an upcoming lesson.
 
 ```shell
-bash -c 'echo "JWT_SECRET="$(openssl rand -hex 64)' > .env
+echo "JWT_SECRET="$(openssl rand -hex 64) > .env
 ```
 
 Finally, ensure the test suite can connect to the right database.
