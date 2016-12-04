@@ -37,6 +37,7 @@ Then, generate a secret key that'll be used to sign JWT information. You'll lear
 bash -c 'echo "JWT_SECRET="$(openssl rand -hex 64)' > .env
 ```
 
+
 Finally, ensure the test suite can connect to the right database.
 
 ```shell

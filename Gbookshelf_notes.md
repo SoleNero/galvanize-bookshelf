@@ -16,6 +16,7 @@ router.get('/', (_req, res, next) => {
       next(err);
     });
 });
+
 router.post('/', (req, res, next) => {
   const { name, profileUrl } = req.body;
   if (!name || !name.trim()) {
