@@ -8,14 +8,16 @@ module.export.post = {
       .label("Title")
       .required(),
     author: Joi.string()
-      .lebel("Author")
+      .label("Author")
       .required(),
     genre: Joi.string()
-      .lebel("Genre")
+      .label("Genre")
       .required(),
     description: Joi.string()
+      .label("Description")
       .required(),
     coverUrl: Joi.string()
+      .label("Description")
       .required()
   }
 };
