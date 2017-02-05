@@ -6,7 +6,7 @@
   "scripts": {
     "heroku-postbuild": "knex migrate:latest",
     "knex": "knex",
-    "start": "nodemon server.js"
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,8 @@
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "humps": "^1.1.0",
-    "jsonwebtoken": "^7.1.9",
+    "joi": "^9.2.0",
+    "jsonwebtoken": "^7.2.1",
     "knex": "^0.11.10",
     "moment": "^2.17.0",
     "morgan": "^1.7.0",
